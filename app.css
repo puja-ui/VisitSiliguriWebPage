@@ -1,0 +1,81 @@
+header, footer {
+    background-image: url(images/flower.jpg);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+aside {
+    padding-top: 10px;
+    font-weight: bold;
+    background-image: url(images/wood.jpg);
+    background-attachment: fixed;
+}
+h2 {
+    text-shadow: 2px 2px 4px skyblue;
+    color: navy;
+}
+.title {
+    color: navy;
+    text-shadow: 2px 2px 4px skyblue;
+}
+#orderedlist {
+    color: black;
+    text-shadow: 2px 2px 4px darkgreen;
+}
+nav {
+    background-color: black;
+}
+li:hover {
+    background-color: goldenrod;
+}
+
+section, article {
+    padding: 10px;
+    background-color: lightgray;
+    font-size: large;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.map {
+    height: 5%;
+    width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover {
+    opacity: 0.5;
+}
+button {
+    display: block;
+    left: 25%;
+    right: 25%;
+}
+.con {
+    left: 50%;
+    font-size: small;
+}
+.fix {
+    position: fixed;
+    text-align: center;
+    opacity: 0.5;
+}
+#timestamp {
+    font-size: small;
+}
+#numberMessage {
+    font-weight: normal;
+    font-size: small;
+}
+#green {
+    color: black;
+    text-shadow: 2px 2px 4px darkgreen;
+}
